@@ -1,0 +1,83 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+zh-CN:
+  date:
+    weekstart: '1'
+    formats:
+      datepicker: 'yyyy-mm-dd'
+  time:
+    formats:
+      time: '%I:%M'
+      noon_time: '%p %I:%M'
+      stamp: '%b%d日(%a) %p %I:%M'
+      stamp_with_year: '%Y年%b%d日(%a) %p %I:%M'
+
+  layout:
+    19wu: "19屋"
+    opensource: "开源社区"
+    contact_us: "联系我们"
+    title: "19屋－卖活动票的小屋"
+
+    account: "注册信息"
+    profile: "个人资料"
+
+  slogan:
+    title: "卖活动票的小屋"
+    description: "由开源社区研发的活动票务平台，在这个小屋子发动活动、卖票都是免费的。"
+
+  highlights:
+    free:
+      title: "完全免费"
+      description: "19屋不会收取任何费用。"
+    more_features:
+      title: "更多功能"
+      description: "更多活动管理功能正在开发中，欢迎向19屋提出要求。"
+    join_us:
+      title: "加入我们"
+      description: "也许你愿意和我们一起成长，请加入19屋"
+
+  helpers:
+    submit:
+      event:
+        create: "新活动"
+      profile:
+        create: "保存%{model}"
+
+  labels:
+    sign_in: "登录"
+    sign_up: "注册"
+    sign_up_to_launch_event: "注册，发动活动"
+    launch_event: "发动活动"
+    show_event: "查看活动"
+    cancel: "取消"
+    join_event_button: "我要参加"
+    has_joined_event_button: "已报名"
+
+  text:
+    under_construction: "网站建设中"
+    visit_github_html: '在 Github 上查看19屋的<a href="%{url}">最新进展</a>。'
+
+  flash:
+    events:
+      created: "活动已经发布"
+      updated: "活动已经更新"
+    profiles:
+      updated: "个人资料已经更新"
+
+  views:
+    events:
+      new:
+        title: "发起活动"
+      edit:
+        title: "修改活动"
+    profiles:
+      show:
+        title: "个人资料"
+
+  email:
+    welcome:
+      subject: "欢迎来到19屋"
+    profiles:
+      show:
+        title: "个人资料"

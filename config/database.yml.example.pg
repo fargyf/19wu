@@ -1,0 +1,19 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  username: postgres
+  password:
+
+development:
+  <<: *defaults
+  database: nineteen_wu_development
+
+test:
+  <<: *defaults
+  database: nineteen_wu_test
+
+production:
+  <<: *defaults
+  database: nineteen_wu_production
